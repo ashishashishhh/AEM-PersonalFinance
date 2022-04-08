@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-04-08T13:52:53.415+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/BUDGET/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="BUDGET/components/page">
+        <root
+            jcr:lastModified="{Date}2022-04-08T13:27:20.832+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="BUDGET/components/container"
+            layout="responsiveGrid">
+            <header
+                jcr:created="{Date}2022-04-08T13:52:53.396+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-08T13:52:53.396+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="editabledemo/components/structure/header"/>
+            <container
+                jcr:lastModified="{Date}2022-04-08T13:51:20.668+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BUDGET/components/container"
+                editable="{Boolean}true"/>
+            <footer
+                jcr:created="{Date}2022-04-08T12:56:22.524+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-08T13:26:15.889+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="editabledemo/components/structure/footer"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

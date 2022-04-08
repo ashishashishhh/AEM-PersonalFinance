@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2022-04-08T14:11:26.959+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/BUDGET/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        sling:resourceType="BUDGET/components/page"
+        pageTitle="BUDGET">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="BUDGET/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BUDGET/components/container">
+                <title
+                    jcr:lastModified="{Date}2022-04-05T18:22:48.170+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="                                              BudgetTracker"
+                    sling:resourceType="BUDGET/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BUDGET/components/container"
+                    layout="responsiveGrid">
+                    <carousel
+                        jcr:created="{Date}2022-04-05T17:25:28.731+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-07T11:35:10.174+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/carousel"
+                        autopauseDisabled="false"
+                        autoplay="true"
+                        delay="5000">
+                        <image_365365071
+                            jcr:created="{Date}2022-04-07T10:42:46.571+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-07T11:51:19.642+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="BUDGET/components/image"
+                            alt="Personal budget"
+                            altValueFromDAM="false"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/myimages/Screenshot 2022-04-07 at 11.50.04 AM.png"
+                            isDecorative="false"
+                            linkURL="/content/BUDGET/language-masters/en/personalbudget"
+                            titleValueFromDAM="false"/>
+                        <image
+                            jcr:created="{Date}2022-04-07T00:11:11.850+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-07T11:56:05.603+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="BUDGET/components/image"
+                            alt="Mutual Funds"
+                            altValueFromDAM="false"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/myimages/Screenshot 2022-04-07 at 11.55.16 AM.png"
+                            isDecorative="false"
+                            linkURL="/content/BUDGET/language-masters/en/mutualfund"
+                            titleValueFromDAM="false"/>
+                        <image_788471529
+                            jcr:created="{Date}2022-04-07T00:30:21.893+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-07T11:51:42.189+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="BUDGET/components/image"
+                            alt="How to make Successful budget"
+                            altValueFromDAM="false"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/myimages/Screenshot 2022-04-07 at 11.47.57 AM.png"
+                            isDecorative="false"
+                            linkURL="/content/BUDGET/language-masters/en/successful-budget"
+                            titleValueFromDAM="false"/>
+                    </carousel>
+                    <teaser
+                        jcr:created="{Date}2022-04-06T12:04:52.605+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>The importance of making a budget is a financial lesson that cannot be overemphasized. If you and your family want financial security, following a&amp;nbsp;&lt;a href=&quot;https://www.investopedia.com/budgeting-4689726&quot;>budget&lt;/a>&amp;nbsp;is the only answer.&lt;/p>&#xd;&#xa;&lt;h2>It Helps You Keep Your Eye on the Prize&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p>A budget helps you figure out your long-term goals and work toward them. If you just drift aimlessly through life, tossing your money at every pretty, shiny object that happens to&amp;nbsp;catch your eye, how will you ever save up enough money to buy a car or put a&amp;nbsp;&lt;a href=&quot;https://www.investopedia.com/terms/d/down_payment.asp&quot;>down payment&lt;/a>&amp;nbsp;on a house?&lt;/p>&#xd;&#xa;&lt;p>A budget forces you to map out your goals, save your money, keep track of your progress, and make your dreams a reality. OK, so it may hurt when you realize that the brand new Xbox game or the gorgeous cashmere sweater in the store window doesn't fit into your budget. But when you remind yourself that you're saving up for a new house, it will be much easier to turn around and walk out of the store empty-handed.&lt;/p>&#xd;&#xa;&lt;h2>&amp;nbsp;It Helps Ensure You Don't Spend Money You Don't Have&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p>Far too many consumers spend money they don't have—and we owe it all to credit cards. As a matter of fact, the average credit card debt per household reached $5,525 in 2021.Before the age of plastic, people tended to know whether they were living within their means. At the end of the month, if they had enough money left to pay the bills and sock some away in savings, they were on track. These days, people who overuse and abuse credit cards don't always realize they're overspending until they're drowning in debt.&lt;/p>&#xd;&#xa;&lt;h2>It Helps Lead to a Happier Retirement&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p>Let's say you spend your money responsibly, follow your budget to a T, and never carry credit card debt. Good for you! But aren't you forgetting something? As important as it is to spend your money wisely today, saving is also critical for your future.&lt;/p>&#xd;&#xa;&lt;p>A budget can help you do just that. It's important to build investment contributions into your budget.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-04-06T12:13:19.702+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Why Budget Planning "
+                        sling:resourceType="BUDGET/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/myimages/stock-vector-budget-planning-concept-in-flat-style-web-sites-infographic-vector-illustration-vector-1451714555.jpg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser>
+                    <text
+                        jcr:created="{Date}2022-04-06T12:05:47.398+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T12:15:26.416+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/text"
+                        text="&lt;h2 style=&quot;margin-left: 40.0px;&quot;>It Helps You Prepare for Emergencies&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Life is filled with unexpected surprises, some better than others. When you get laid off, become sick or injured, go through a divorce, or have a death in the family, it can lead to some serious financial turmoil. Of course, it seems like these emergencies always arise at the worst possible time—when you're already strapped for cash. This is exactly why everyone needs an&amp;nbsp;&lt;a href=&quot;https://www.investopedia.com/terms/e/emergency_fund.asp&quot;>emergency fund&lt;/a>.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Your budget should include an emergency fund that consists of at least three to six months worth of living expenses. This extra money will ensure that you don't spiral into the depths of debt after a life crisis. Of course, it will take time to save up three to six months' worth of living expenses.&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40.0px;&quot;>&amp;nbsp;It Helps Shed Light on Bad Spending Habits&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Building a budget forces you to take a close look at your spending habits. You may notice that you're spending money on things you don't need. Do you honestly watch all 500 channels on your costly extended cable plan or multiple streaming subscriptions? Do you really need 30 pairs of black shoes? Budgeting allows you to rethink your spending habits and refocus your financial goals.&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40.0px;&quot;>It's Better Than Counting Sheep&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Following a budget will also help you catch more shut-eye. How many nights have you tossed and turned worrying about how you were going to pay the bills? People who lose sleep over financial issues are allowing their money to control them. Take back the control. When you budget your money wisely, you'll never lose sleep over financial issues again.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Of course, this is just the tip of the iceberg. There are countless other advantages to following a budget. So why wait? Time to start budgeting!&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>There are many reasons to have a budget, depending on the individual. A budget can often help build financial independence and freedom. A budget can set you on the right path to achieving your financial goals, spending within your means, saving for retirement, building an emergency fund, and analyzing your spending habits.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>A budget helps create financial stability. By tracking expenses and following a plan, a budget makes it easier to pay bills on time, build an emergency fund, and save for major expenses such as a car or home. Overall, a budget puts a person on stronger financial footing for both the day-to-day and the long term.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text>
+                    <title
+                        jcr:created="{Date}2022-04-06T12:18:31.709+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-08T14:11:26.934+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="                              How to Track your Expenses"
+                        sling:resourceType="BUDGET/components/title"/>
+                    <text_1333847848
+                        jcr:created="{Date}2022-04-06T12:19:24.918+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T12:36:02.871+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/text"
+                        text="&lt;p>Tracking your spending is often the first step in getting your finances in order. By understanding what you spend money on and how much you spend, you can see exactly where your cash is going and areas where you can cut back.&lt;/p>&#xd;&#xa;&lt;p>It's easy to make this part of your everyday routine thanks to expense tracker apps that help you manage your money on the go. These apps certainly overlap with&amp;nbsp;&lt;a href=&quot;https://www.cnbc.com/select/best-budgeting-apps/&quot;>budgeting apps&lt;/a>, but while the latter provide a big-picture view of your finances, expense tracker apps put more of an emphasis on your spending. These apps usually categorize your expenses and help you get a good idea of your purchasing behavior.&lt;/p>&#xd;&#xa;&lt;h2>Steps to Track Your Expenses&lt;/h2>&#xd;&#xa;&lt;p>Tracking your expenses (aka tracking your transactions) isn’t hard—it’s a&amp;nbsp;&lt;i>habit&lt;/i>. And just like other important habits—you know, like flossing—it takes some work and repetition to go from trying to&amp;nbsp;&lt;i>remember&lt;/i>&amp;nbsp;to do it to doing it naturally. But you’ll get there. And your teeth and budget will thank you. Just follow these four steps.&lt;/p>&#xd;&#xa;&lt;h3>Step One: Create a Budget&lt;/h3>&#xd;&#xa;&lt;p>You won’t be able to track expenses without one. What’s a&amp;nbsp;&lt;a href=&quot;https://www.ramseysolutions.com/budgeting&quot;>budget&lt;/a>? It’s your monthly money plan where you’ll give every dollar that comes in during the month a job to do, whether that’s spending, saving or giving.&lt;/p>&#xd;&#xa;&lt;p>And listen, budgets get a bad rap. Has anyone ever told you a budget is too limiting? The truth is, a budget doesn’t control you—you control it. It’s&amp;nbsp;&lt;a href=&quot;https://www.ramseysolutions.com/budgeting/budget-percentages&quot;>a guide&amp;nbsp;you&amp;nbsp;set up&lt;/a>&amp;nbsp;to make sure your money does what&amp;nbsp;&lt;i>you&lt;/i>&amp;nbsp;tell it to do. So, it actually gives you permission to spend!&lt;/p>&#xd;&#xa;&lt;p>And here’s how you go about&amp;nbsp;&lt;a href=&quot;https://www.ramseysolutions.com/budgeting/how-to-make-a-budget&quot;>setting up a budget&lt;/a>:&lt;/p>&#xd;&#xa;&lt;p>1. List your income.&lt;/p>&#xd;&#xa;&lt;p>List out each paycheck coming this month. (Don’t forget any extras like that side hustle!) Add that all up. This is how much money you have to work with this month!&lt;/p>&#xd;&#xa;&lt;p>2. List your expenses.&lt;/p>&#xd;&#xa;&lt;p>Time to plan for everything you’re paying for this month. List your expenses in this order:&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Giving (10% of your income)&lt;/li>&#xd;&#xa;&lt;li>Savings (depending on your&amp;nbsp;&lt;a href=&quot;https://www.ramseysolutions.com/dave-ramsey-7-baby-steps&quot;>Baby Step&lt;/a>)&lt;/li>&#xd;&#xa;&lt;li>Four Walls (food, utilities, shelter/housing and transportation)&lt;/li>&#xd;&#xa;&lt;li>Other essentials (insurance, debt, childcare, etc.)&lt;/li>&#xd;&#xa;&lt;li>Extras (entertainment, restaurants, etc.)&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>3. Subtract your expenses from your income.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>This should equal zero. If you’ve got money left over, that’s awesome! Put it toward your current&amp;nbsp;&lt;a href=&quot;https://www.ramseysolutions.com/budgeting/how-to-win-with-money-in-7-easy-baby-steps&quot;>Baby Step&lt;/a>&amp;nbsp;(the proven, guided path to saving, paying off debt, and building wealth). If you’ve got a negative number, lower your planned totals or cut extras until you get zero.&lt;/p>&#xd;&#xa;&lt;h3>Step Two: If You Make Money, Track It&lt;/h3>&#xd;&#xa;&lt;p>When your regular paycheck comes in, put it in the income part of your budget. If you make money through a&amp;nbsp;&lt;a href=&quot;https://www.ramseysolutions.com/saving/side-hustle-ideas&quot;>side hustle&lt;/a>&amp;nbsp;or sell something, log that in too!&lt;/p>&#xd;&#xa;&lt;p>This step is super important if you have an&amp;nbsp;&lt;a href=&quot;https://www.ramseysolutions.com/budgeting/how-to-budget-an-irregular-income&quot;>irregular income&lt;/a>. Remember, you planned low when you listed your income. So, if your income turns out to be more than you planned, now’s the time to adjust. You can add money to your current budget lines or cover some extras in the budget.&lt;/p>&#xd;&#xa;&lt;p>Even with a regular income, track it! For one, you can make sure nothing’s off with your paycheck. For two, it’s another way to get you in your budget (which is always a solid win).&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text_1333847848>
+                    <teaser_244015332
+                        jcr:created="{Date}2022-04-06T12:19:53.885+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;h3 style=&quot;margin-left: 40.0px;&quot;>Step Three: If You Spend Money, Track It&lt;/h3>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Track every single expense you make. All month long.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>When you fill up the&amp;nbsp;&lt;a>gas tank&lt;/a>, subtract that expense from your transportation budget line. When you pay the rent, subtract that expense from your housing line. When you buy tickets to see your fave boy band’s reunion tour, subtract that expense from entertainment.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>You get the picture. If money’s coming out of your wallet, bank account, PayPal, cash envelope, coin purse or old-fashioned piggy bank—track it.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>As you’re tracking, make sure you’re&amp;nbsp;&lt;i>subtracting&lt;/i>&amp;nbsp;too. Then you can see how much you have left in your different budget categories. This is where the magic happens—because this is where you’re&amp;nbsp;&lt;i>keeping up with&lt;/i>&amp;nbsp;spending to&amp;nbsp;&lt;i>keep from&lt;/i>&amp;nbsp;overspending!&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;h3 style=&quot;margin-left: 40.0px;&quot;>Step Four: Set a Regular Rhythm for Tracking&lt;/h3>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Track your expenses regularly. That might be once a week or at the end of each day—or it might be before you leave the grocery store parking lot.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Whatever works for you&amp;nbsp;&lt;i>and&lt;/i>&amp;nbsp;gets every expense tracked with&amp;nbsp;&lt;i>no&amp;nbsp;&lt;/i>paper receipts getting lost in that kitchen drawer that must be some kind of portal to another world. (How else do you explain the things that go in but never come out?)&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>If you’re married, make sure both of you are working from the same budget and tracking expenses. This is great for accountability and communication. That way, neither one of you will ever say, “I didn’t know you spent most of the entertainment budget on ziplining tickets. I wanted to sign us up for a couples hip-hop dance class.”&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40px;&quot;>Why Should You Track Your Expenses?&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>We just touched on this, but now we’re going deeper. Because, let’s be honest, if all you’re doing at the start of each month is jotting down planned budget lines, you aren’t holding yourself accountable to&amp;nbsp;&lt;i>keep within those lines.&amp;nbsp;&lt;/i>&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>Many of us began “budgeting” this way. And it’s a start. It’s good to have an impression of what money&amp;nbsp;&lt;i>should&amp;nbsp;&lt;/i>go where. But if you aren’t tracking your expenses, you don’t know&amp;nbsp;&lt;i>where&lt;/i>&amp;nbsp;your money is&amp;nbsp;&lt;i>really going&lt;/i>. You’ll run the risk of continually setting unrealistic budgets, and you’ll never meet your&amp;nbsp;&lt;a href=&quot;https://www.ramseysolutions.com/personal-growth/setting-financial-goals&quot;>money goals&lt;/a>.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>And that isn’t what we want for you. We want you to succeed. Times ten! So, let’s look at different methods to make that happen.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-04-06T12:26:10.221+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/myimages/track-expenses.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser_244015332>
+                    <title_1926320909
+                        jcr:created="{Date}2022-04-06T12:27:14.002+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-08T14:10:55.617+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="                               Spend Smarter and Save More"
+                        sling:resourceType="BUDGET/components/title"/>
+                    <image
+                        jcr:created="{Date}2022-04-06T12:37:03.551+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-07T12:52:06.121+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/image"
+                        alt="Expenses"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/myimages/Expense1.jpg"
+                        isDecorative="false"
+                        linkURL="/content/BUDGET/language-masters/en/expenses"
+                        titleValueFromDAM="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </image>
+                    <image_373368401
+                        jcr:created="{Date}2022-04-06T12:37:09.833+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-07T12:52:31.758+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/image"
+                        alt="Other Expenses"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/myimages/Expense2.jpg"
+                        isDecorative="false"
+                        linkURL="/content/BUDGET/language-masters/en/expenses"
+                        titleValueFromDAM="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="7"/>
+                        </cq:responsive>
+                    </image_373368401>
+                    <teaser_1372725298
+                        jcr:created="{Date}2022-04-06T12:54:33.525+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>The willingness and the ability to save money is the secret of &lt;a>building wealth&lt;/a>. So as to save money, you need to spend less than you actually earn. Though it looks very simple when you say it, it is really difficult to implement. There are plenty of ways to help you start saving money even on a very &lt;a>tight budget&lt;/a>. Saving money or spending less is all about the personality, belief system, values of a family.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>Spending money has got so many influencing factors. But all these influencers can be classified into five broad spending influencers.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;h2>1. Emotions&lt;/h2>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>Your emotions play an important role in your spending pattern. Positive feelings like happiness, fun, joy can influence you to spend more on entertainment and gifts. Negative feelings like envy, jealousy, shame, stress, depression, frustration can influence you to spend more on smoking, drinking, buying things you actually don’t need, relaxation and Healthcare.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;h2>2. Traditional Thought&lt;/h2>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>This is because of your belief system and your thought process. I need to buy a silk saree every year for my wedding anniversary. I have to burst crackers for&amp;nbsp;&lt;a>Diwali&lt;/a>. These are all classic examples of how your traditional thoughts will influence your spending pattern.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;h2>3. Society&lt;/h2>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>The society in which you live will have more influence on your spending. You have to buy a car as all your colleagues are coming to the office in their own car. On the occasion of your kid’s birthday, you need to arrange gifts for all the classmates of your kid. You should be watching this movie, on the first-day first show. This influencer is caused by friends, colleagues, neighbours, relatives, and club members. Even at times, advertisements and promotional offers like a discount sale can make you spend more.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;h2>4. Habits&lt;/h2>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>Habits formed when you are growing up can make you spend impulsively. Generally, this will be your sensual pleasures. Spending on movies, music, eating out, smoking, drinking are the best examples for this influencer.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-04-06T13:07:51.202+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/myimages/piggy-bank-income-distribution-expenditure-save-more-background-investment-spend-donation-concept-131813766.jpg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser_1372725298>
+                    <text_903198180
+                        jcr:created="{Date}2022-04-06T12:54:38.908+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T13:08:13.926+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/text"
+                        text="&lt;h2 style=&quot;margin-left: 40.0px;&quot;>5. Commitments&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>This includes&amp;nbsp;&lt;a href=&quot;https://www.holisticinvestment.in/get-out-of-debt&quot;>paying off your debts&lt;/a>&amp;nbsp;and loans, commitments towards family-like school fees, buying groceries and other provisions, paying rent, paying for medical insurance. You are committed to paying these expenses earlier.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>By tracking and analyzing each and every expense, you will be able to identify the influencers which made you spend. Here are some strategies to overcome these influencers and spend smarter.&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40.0px;&quot;>6. Control Your Emotions&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Instead of spending money, you can control your emotions by doing something else like yoga or meditation, watching comedy shows on TV, going to the temple or beach. You need to solve the root of the emotion. Do introspection and keep a balanced mind always. A balanced mind is key for spending smarter.&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40.0px;&quot;>7. Self Talk&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>You need to consciously change your thought patterns to come out of traditional thinking. “I don’t really need a saree for every wedding anniversary”. “I am not a kid; so I need not bust crackers on Diwali”. These kinds of auto suggestions will change your thought process and you will be able to really prioritize things on which you spend.&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40.0px;&quot;>8. You are unique&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>You were born original. Please don’t die a copy. There is no need to feel bad if you don’t get to spend or buy things like your friends or people around you. You are unique and special in your own way. You need to discuss with your family and friends about “How to live happily by achieving compromised spending patterns?”&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40.0px;&quot;>9. Unwanted Commitments&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>You can’t avoid certain commitments like groceries, schools fees. But definitely you can discontinue unwanted commitments like the club membership in which you are not actively participating and not getting any actual use out of it; the chits impulsively you have enrolled with a jewellery shop.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Money not spent is saved. The above strategies will only work if you truly have a desire for future financial success. You need to be disciplined and persistent in the course of implementing these strategies. The more you practice smart spending, the wealthier you become.&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40.0px;&quot;>10. Learn and unlearn Habits&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>The unwanted habits which make you spend more can be unlearned. Good habits which make you spend smarter can be learned.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>A habit is an intersection of knowledge, skill, and desire. Knowledge is ‘what to do and why’. That is we need to spend less to save more and become richer. Skill is ‘How to do’. That is ‘how we spend less and what are all the strategies to be applied for spending less’. Desire is the motivation, the want to do. What are we trying to achieve by spending less? How that is more important to us than spending more. In order to make something a habit in our lives, we need to have all three.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text_903198180>
+                </container>
+            </container>
+        </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <personalbudget/>
+    <mutualfund/>
+    <successful-budget/>
+    <expenses/>
+    <new/>
+</jcr:root>

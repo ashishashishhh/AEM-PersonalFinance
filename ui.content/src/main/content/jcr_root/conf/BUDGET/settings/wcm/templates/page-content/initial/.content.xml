@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/BUDGET/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="BUDGET/components/page">
+        <root
+            jcr:lastModified="{Date}2022-04-08T13:27:20.832+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="BUDGET/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:lastModified="{Date}2022-04-08T13:52:17.309+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BUDGET/components/container">
+                <header
+                    jcr:created="{Date}2022-04-08T12:56:28.294+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-08T13:26:09.365+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="editabledemo/components/structure/header"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

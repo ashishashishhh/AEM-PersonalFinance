@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2022-04-08T10:46:40.696+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/BUDGET/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="MutualFund"
+        sling:resourceType="BUDGET/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="BUDGET/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BUDGET/components/container">
+                <title
+                    jcr:lastModified="{Date}2022-04-06T10:50:00.219+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="                                                      MutualFund"
+                    sling:resourceType="BUDGET/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BUDGET/components/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        jcr:created="{Date}2022-04-06T10:33:14.124+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>To many people, Mutual Funds can seem complicated or intimidating. We are going to try and simplify it for you at its very basic level. Essentially, the money pooled in by a large number of people (or investors) is what makes up a Mutual Fund. This fund is managed by a professional fund manager.&lt;/p>&#xd;&#xa;&lt;p>It is a trust that collects money from a number of investors who share a common investment objective. Then, it invests the money in equities, bonds, money market instruments and/or other securities. Each investor owns units, which represent a portion of the holdings of the fund. The income/gains generated from this collective investment is distributed proportionately amongst the investors after deducting certain expenses, by calculating a scheme’s “&lt;b>&lt;a href=&quot;https://www.mutualfundssahihai.com/en/what-net-asset-value-nav&quot;>Net Asset Value or NAV&lt;/a>&lt;/b>.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-04-06T10:42:51.677+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="                                What is MutualFund"
+                        sling:resourceType="BUDGET/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/myimages/mutualfund1.jpg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser>
+                    <text
+                        jcr:created="{Date}2022-04-06T10:33:21.144+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T10:43:48.066+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/text"
+                        text="&lt;p style=&quot;margin-left: 40px;&quot;>Here’s a simple way to understand the concept of a Mutual Fund Unit.&lt;br>&#xd;&#xa;Let’s say that there is a box of 12 chocolates costing ₹40. Four friends decide to buy the same, but they have only ₹10 each and the shopkeeper only sells by the box. So the friends then decide to pool in ₹10 each and buy the box of 12 chocolates. Now based on their contribution, they each receive 3 chocolates or 3 units, if equated with Mutual Funds.&lt;br>&#xd;&#xa;And how do you calculate the cost of one unit? Simply divide the total amount with the&amp;nbsp;total number&amp;nbsp;of chocolates: 40/12 = 3.33.&lt;br>&#xd;&#xa;So if you were to multiply the number of units (3) with the cost per unit (3.33), you get the initial investment of ₹10.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>This results in each friend being a unit holder in the box of chocolates that is collectively owned by all of them, with each person being a part owner of the box.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>Next, let us understand what is “Net Asset Value” or NAV. Just like an equity share has a traded price, a mutual fund unit has Net Asset Value per Unit. The NAV is the combined market value of the shares, bonds and securities held by a fund on&amp;nbsp;any particular&amp;nbsp;day (as reduced by permitted expenses and charges). NAV per Unit represents the market value of all the Units in a mutual fund scheme on a given day, net of all expenses and liabilities plus income accrued, divided by the outstanding number of Units in the scheme.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text>
+                    <title
+                        jcr:created="{Date}2022-04-06T10:44:11.430+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T10:44:33.099+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="How MutualFund works"
+                        sling:resourceType="BUDGET/components/title"/>
+                    <text_104720281
+                        jcr:created="{Date}2022-04-06T10:44:49.003+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T10:49:02.573+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/text"
+                        text="&lt;p>For instance, let’s assume that&amp;nbsp;&lt;a href=&quot;https://scripbox.com/mutual-fund/amc/aditya-birla-sun-life&quot;>Aditya Birla Mutual Fund&lt;/a>&amp;nbsp;launches a mutual fund scheme. Let us say, ABSL Top 25 Fund. For the ease of understanding, let’s assume the scheme collects INR 1 crore from 100 investors. Investment per investor being INR 1 lakh. The fund house allots the units at a NAV of INR 10. Therefore, each investor gets 10,000 units. Thus, the total number of units issued and allocated by the fund house is 10 lakh units.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>ABSL Top 25 Fund’s objective is to invest across 25 stocks.&amp;nbsp; To follow the fund’s objective, the fund manager does his research and pick the top 25 stock. The&amp;nbsp;fund manager&amp;nbsp;believes that&amp;nbsp;buying stocks&amp;nbsp;that fit the criteria will contribute significant returns to the portfolio. Upon selecting the shares, the fund manager invests equal amounts across each stock. Thus, the equity fund&amp;nbsp;comprises of&amp;nbsp;top 25 shares.&lt;/p>&#xd;&#xa;&lt;p>As the&amp;nbsp;&lt;a href=&quot;https://scripbox.com/mf/assets-under-management/&quot;>Assets Under Management (AUM)&lt;/a>&amp;nbsp;of the fund is INR 1 crore, investment in each stock is approximately INR 4 lakh. Thus these stocks become part of the equity fund&amp;nbsp;portfolio. Also, in reality, the fund manager deals and invests in high proportions. All the investments are backed by research. The fund manager&amp;nbsp;believes in buying stocks&amp;nbsp;that give good returns. Additionally, the fund also maintains a cash balance. It is to deal with redemption from investors.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h4>Increase in Net Asset Value (NAV)&lt;/h4>&#xd;&#xa;&lt;p>After a month, the portfolio doesn’t witness any changes concerning holding and the number of investors. Eventually, as the price of the stocks starts to move, the portfolio value keeps changing. As the prices move up, the total value of the portfolio increases. In this scenario, the value of the portfolio grows to INR 1.25 crores. Since there is no change in the fund units of 10,000, the new NAV now is INR 12.5 (INR 1.25 crore/10 lakh units).&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h4>Redemption&lt;/h4>&#xd;&#xa;&lt;p>Investors redeem or sell their investments. For this fund, an overall 1,00,000 units were redeemed. In terms of value, the total outflow is INR 12.5 lakh (INR 12.5*1,00,000 units). As a result, the&amp;nbsp;Assets Under Management&amp;nbsp;(AUM) of the fund fell to INR 1.125 crore. And, the total number of units comes down to 9 lakh units. Thus the NAV remains at INR 12.5 per unit.&lt;/p>&#xd;&#xa;&lt;h4>Fall in NAV&lt;/h4>&#xd;&#xa;&lt;p>Let’s assume that the stock prices are falling. As a result, there would be a fall in the portfolio value. Here it falls from INR 1.25 crore to 1.10 crore. Therefore the NAV is now INR 12.22 per unit (INR 1.10 crore/9 lakh units).&lt;/p>&#xd;&#xa;&lt;p>Now, another investor invests in the fund. The value of his investment is INR 1 lakh. However, this time for the same investment amount, he only gets 8,183.306 units. As a result of this new investment, the portfolio value increases to 1.11 crore. Therefore the total number of units now are increased by 8,183.306 units.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>It is important to remember that the above scenario is just a small example of how mutual funds work. In reality, investments/purchases and redemptions are made daily. Hence, the NAV of the fund changes daily. However, the basis of calculations revolves around the same concept.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text_104720281>
+                    <teaser_1465253879
+                        jcr:created="{Date}2022-04-06T10:44:56.543+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p style=&quot;margin-left: 40.0px;&quot;>Mutual funds pool money from different investors to invest in securities like shares, bonds, government securities, etc. Each mutual fund&amp;nbsp;scheme has a strategy that is set at the time of the NFO (New Fund Offer). Once the strategy is decided, the fund must follow it. Starting from the launch of NFO to the distribution of returns, mutual fund investing is a cycle of 4 steps.&lt;/p>&#xd;&#xa;&lt;h4 style=&quot;margin-left: 40px;&quot;>NFO Launch&lt;/h4>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>In a New Fund Offer (NFO), investors get an opportunity to subscribe to a mutual fund&amp;nbsp;scheme and say invested in it right from its inception. However, they can subscribe only for a limited time. Once the NFO closes, the investors will only be able to purchase the units. Moreover, the fund’s strategy is disclosed at the time of the NFO launch. Once the fund manager fixes the fund strategy, it cannot be changed. It is because investors invest in the fund based on the strategy.&amp;nbsp; NFO’s are cheaper than existing funds as it’s new to the market. However, mutual funds investors need to consider the fund houses’ reputation, objectives of the fund, cost of investment, risk, minimum subscription amount, and the investment tenure before investing in an NFO.&lt;/p>&#xd;&#xa;&lt;h4 style=&quot;margin-left: 40px;&quot;>Money is Pooled&lt;/h4>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>Mutual funds pool money from many small investors to invest in securities. Investors invest small amounts of money from their savings. Mutual funds allow small investors to invest money in large portfolios, which they otherwise cannot. It can be due to the lack of money or lack of time to perform mutual fund&amp;nbsp;research in detail. Thus, mutual funds are the solution to such investors.&lt;/p>&#xd;&#xa;&lt;h4 style=&quot;margin-left: 40px;&quot;>Invest Money in Securities&lt;/h4>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>The pooled money is invested in securities like shares, bonds, and government securities. The fund manager decides the portfolio of the fund based on the strategy of the fund. The portfolio manager has the expertise and time to do a thorough research of the securities. Also, they perform a company, industry, and economy level analysis. In order to find the securities that best fit the fund’s strategy and maximize the return for the mutual funds investors.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h4 style=&quot;margin-left: 40px;&quot;>Fund Returns&lt;/h4>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>The portfolio manager continuously strives to earn returns from the investments they make on behalf of the fund investors. Thus, all their efforts in mutual fund&amp;nbsp;research, monitoring, and rebalancing the portfolio increases the fund’s&amp;nbsp;&lt;a href=&quot;https://scripbox.com/data/net-asset-value-nav-learn-about-its-meaning-how-is-calculated-and-importance/&quot;>NAV&lt;/a>. Once the fund makes returns, they are either distributed or invested back into the fund. While, for dividend funds, the returns are distributed in the form of dividends.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-04-06T10:48:02.920+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/myimages/mutualfund3.jpg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser_1465253879>
+                    <title_1317091579
+                        jcr:created="{Date}2022-04-06T10:49:27.903+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T10:49:37.156+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Benefits of MutualFund"
+                        sling:resourceType="BUDGET/components/title"/>
+                    <teaser_1894106356
+                        jcr:created="{Date}2022-04-06T10:50:21.070+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;div>&lt;span style=&quot;font-size: 15.21px;&quot;>&lt;b>1. Divesification&lt;/b>&lt;/span>&lt;/div>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;div>&amp;nbsp;&lt;/div>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>One of the most prominent advantages of investing in mutual funds is diversification. It is the process of spreading a given investment over multiple assets classes. Diversification helps us create an assorted portfolio that segregates the headwinds experienced in various sectors. Money is invested in a mixture of assets according to one’s risk appetite.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>For e.g., an equity-oriented mutual fund would generally comprise of 60-70% investments in equities, and the remaining 30-40% in debt&amp;nbsp; securities.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>As mentioned earlier, diversification helps us reduce the risk associated with different asset classes. This proves to be beneficial when an underlying component of a given mutual fund experiences market headwinds. With diversification, the risk associated with one asset class is countered by the others. This way, you don’t lose out on the entire value of your investment if a particular compenent of your portfolio goes through a turbulent period.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&lt;b>2. Professional Management&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>A lot of investors do not have the time or resources to conduct their research and purchase individual stocks. This is where professional management becomes quite useful. Several people invest in mutual funds for the professional expertise it provides to one’s investments. A fund manager continuously monitors investments and adjusts the portfolio accordingly to meet its objectives. This professional management is one of the most important advantage of a mut&lt;span style=&quot;font-size: 0.8125rem;&quot;>ring this period.&lt;/span>&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-04-06T10:57:18.573+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/myimages/mutualfund2.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser_1894106356>
+                    <text_1756726710
+                        jcr:created="{Date}2022-04-06T10:50:27.539+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T10:58:00.618+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/text"
+                        text="&lt;div>&lt;span style=&quot;font-size: 15.21px;&quot;>&lt;b>3. Tax Benefits&lt;/b>&lt;/span>&lt;/div>&#xd;&#xa;&lt;p>The tax benefits associated with a particular kind of mutual fund is perhaps what draws most investors to this investment vehicle. To encourage investments in mutual funds, the Government of India offers several tax benefits.&lt;/p>&#xd;&#xa;&lt;div>&lt;span style=&quot;font-size: 15.21px;&quot;>For e.g., investments in Equity Linked Saving-Schemes(ELSS)&amp;nbsp;qualify for tax deduction under Section 80C&amp;nbsp;of the Income Tax Act. One can invest up to Rs1.5 lakh in this instrument to avail a tax saving of approximately Rs46,800 (assuming the highest slab of income tax i.e. @30% plus health &amp;amp; education cess 4% excluding surcharge as applicable) on their taxable income. The only caveat here is that the instrument comes with a lock-in period of 3 years, which means that you would not be able to access the invested funds during this period.&lt;/span>&lt;/div>&#xd;&#xa;&lt;div>&amp;nbsp;&lt;/div>&#xd;&#xa;&lt;div>&lt;span style=&quot;font-size: 15.21px;&quot;>&lt;b>4. Highly Liquid&lt;/b>&lt;/span>&lt;/div>&#xd;&#xa;&lt;p>One can easily sell mutual funds to meet their financial needs. Upon liquidation, the money is deposited in your bank account in few &amp;nbsp;days. Additionally, there are mutual funds that provide faster disbursal. They are called funds having instant redemption facuility , wherein the money is transferred to your bankon the same day.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>5. Higher Return on Investment (RoI)&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>All investors aim to achieve a higher RoI by investing in financial instruments such as mutual funds to beat inflation and increase their wealth of the long-term. Mutual funds have greater prospects of potentially providing highreturns over time as one can invest in a diverse range of sectors and industries.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>6. Well-regulated&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>All mutual funds are regulated by the capital markets watchdog Securities and Exchange Board of India (SEBI). This means that all mutual fund houses are required to follow the various mandates as laid down by SEBI. This, in turn, protects the interests of the investors. Moreover, SEBI makes it mandatory for all mutual funds to disclose their portfolios every month.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>7. Easy Investment&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>It is very easy to invest in mutual funds, i.e. you can do this either online or offline. You simply need to visit your Asset Management Company’s (AMC) website and submit the necessary documents to start on your investment journey. Moreover, you can also visit your AMC in person and sign the physical documents to get started. This ease of investment makes mutual funds are preferable avenue.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text_1756726710>
+                </container>
+            </container>
+        </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

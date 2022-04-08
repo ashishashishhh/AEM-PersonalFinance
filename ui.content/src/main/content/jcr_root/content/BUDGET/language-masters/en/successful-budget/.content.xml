@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2022-04-08T10:46:55.181+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/BUDGET/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Successful-Budget"
+        sling:resourceType="BUDGET/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="BUDGET/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BUDGET/components/container">
+                <title
+                    jcr:lastModified="{Date}2022-04-06T14:48:39.424+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="                            Elements of Successful-Budget"
+                    sling:resourceType="BUDGET/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BUDGET/components/container"
+                    layout="responsiveGrid">
+                    <tabs
+                        jcr:created="{Date}2022-04-06T14:49:31.245+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T15:25:02.838+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/tabs">
+                        <item_1
+                            cq:panelTitle="Pie-Chart"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 1"
+                            sling:resourceType="BUDGET/components/container"
+                            layout="responsiveGrid">
+                            <image
+                                jcr:created="{Date}2022-04-06T15:02:44.574+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-06T15:21:28.740+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="BUDGET/components/image"
+                                fileReference="/content/dam/myimages/Budget-Pie-Chart-Template-1.png"/>
+                        </item_1>
+                        <item_2
+                            cq:panelTitle="Budget"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 2"
+                            sling:resourceType="BUDGET/components/container"
+                            layout="responsiveGrid">
+                            <image
+                                jcr:created="{Date}2022-04-06T15:02:31.495+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-06T15:21:45.386+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="BUDGET/components/image"
+                                fileReference="/content/dam/myimages/Budgeting-basics.jpg"/>
+                        </item_2>
+                    </tabs>
+                    <teaser
+                        jcr:created="{Date}2022-04-06T15:26:06.678+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>A budget is one of the most important tools to have in your financial planning arsenal. Without a budget, you may run the risk of overspending. It can be more difficult to reach important&amp;nbsp;&lt;a href=&quot;https://www.thebalance.com/get-control-of-your-budget-2385702&quot;>financial goals&lt;/a>, such as saving for an emergency fund or buying a home, when you don't have a budget in place to guide your spending.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>Mastering the art of budgeting begins with an understanding of the most important components of a good budget. As you create your household budget, remember to include these nine features.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h2>1. Accurate Spending Categories&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p>While&amp;nbsp;&lt;a href=&quot;https://www.thebalance.com/basic-monthly-budget-worksheet-1289585&quot;>budget worksheets&lt;/a>&amp;nbsp;can be a helpful resource to guide your budget, they may not align perfectly with your spending habits. When&amp;nbsp;creating your budget, focus on including expense categories that reflect where your money goes. Tracking your spending with a budgeting app is a good way to understand your monthly expenses.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h2>2. Enough Spending Categories&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p>In addition to having accurate spending categories, your budget also needs to have the correct number of spending categories. While you don't want to go overboard, breaking down broader expense categories into smaller segments can give you a clearer picture of where your money goes. That's useful for understanding your spending patterns, and it can also help pinpoint areas where you can reduce spending. Just make sure that you don't drown in the details.&lt;/p>&#xd;&#xa;&lt;h2>3. Accurate Income Projections&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p>Spending is one half of your budget; income is the other. Accuracy is a must, not only for expenses but also with your income. You have to account for how much money you will have to spend, not just how much you make or think you will make. Don't forget to take out taxes and other deductions (like contributions to your&amp;nbsp;&lt;a href=&quot;https://www.thebalance.com/what-s-a-401k-retirement-plan-453770&quot;>employer's 401(k)&lt;/a>). If you have irregular income, you may consider basing your monthly budget on the average you make each month.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h2>4. Categories for Irregular&amp;nbsp;Expenses&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p>When creating a budget, it's easy to get stuck in the monthly mindset, but don't forget to include those expenses that may only come around once a quarter, twice a year, or even once a year. For example, you may pay your car insurance every six months, while your homeowner's association fees are due annually. To ensure that you account for those expenses accurately, annualize the number, then divide by 12. Build that amount into your monthly budget and set it aside in a separate account so you can pay those expenses when they're due.&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-04-06T15:28:27.322+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/myimages/budgeting...jpg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser>
+                    <text
+                        jcr:created="{Date}2022-04-06T15:26:17.438+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T15:29:00.481+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/text"
+                        text="&lt;h2 style=&quot;margin-left: 40px;&quot;>5. A Line Item for Savings&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>It would not be a budget without including savings. Your budget should treat&amp;nbsp;&lt;a href=&quot;https://www.thebalance.com/the-complete-beginner-s-guide-to-saving-money-358065&quot;>savings&lt;/a>as an expense, not just as what happens with the &amp;quot;leftover&amp;quot; or surplus cash if there is any. In treating savings as an expense, you ensure that you're contributing money wherever it is most needed. For example, you can have a line item for general savings as well as a category for your&amp;nbsp;&lt;a href=&quot;https://www.thebalance.com/prepare-emergency-fund-1289901&quot;>emergency fund&lt;/a>&amp;nbsp;or savings for a down payment on a home.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40px;&quot;>6. Tracking for Cash Purchases&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>You don't have to track every dollar you spend down to the penny. However, you should try to account for cash spending accurately.&amp;nbsp;Cash spending can easily become the&amp;nbsp;biggest&amp;nbsp;&lt;a href=&quot;https://www.thebalance.com/where-does-all-my-money-go-453956&quot;>leak in most budgets&lt;/a>. Cash disappears quickly, and if you don't write down everything you spend it on, you'll have a distorted look at your spending and where your money goes.&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40px;&quot;>7. Realistic Written Goals&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>This one is a big one, and it's not a part of most personal budgets. While written financial goals aren't a required piece of a budget and aren't included on most budget worksheets, they're an extremely important piece of financial planning.&amp;nbsp;By setting realistic goals like&amp;nbsp;saving for a home,&amp;nbsp;buying a new car, getting out of debt, saving for retirement, putting your kids through college, or even having a travel budget, you can begin to find ways to save for those goals and track how close you are to meeting them.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>Goals can be great sources of motivation for taking control of your spending, and they give every dollar that comes in and goes out of your bank account a purpose.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40px;&quot;>8. Regular Reviews&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>Most of these features for a successful budget are things that should be included in the budget itself. But, there are also exercises and practices that go along with creating and maintaining a budget. One of those practices is a regular review.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>Your budget isn't a set-it-and-forget-it exercise. You should be reviewing your budget and actual spending at least monthly so you can track your progress and make adjustments if necessary. Life changes can increase or reduce your spending and income, and regularly reviewing your budget ensures that your hard-earned dollars don't fall through the cracks.&lt;/p>&#xd;&#xa;&lt;h2 style=&quot;margin-left: 40px;&quot;>9. The Right Mindset&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>Last but not least, all successful budgeters approach their budgets with the right mindset. While it may be tempting to view your budget as being restrictive, it's a way to gain control over your money so you can tell your paycheck what to do, instead of the other way around. Budgeting can be difficult and even a stressful exercise, but it is necessary for financial success. By adopting a&amp;nbsp;&lt;a href=&quot;https://www.thebalance.com/how-gratitude-can-help-your-finances-4164181&quot;>positive mindset towards budgeting&lt;/a>and staying motivated, you can be well on your way to achieving financial security through budgeting.&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text>
+                </container>
+            </container>
+        </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2022-04-08T10:45:39.994+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/BUDGET/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="personalBudget"
+        sling:resourceType="BUDGET/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="BUDGET/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BUDGET/components/container">
+                <title
+                    jcr:lastModified="{Date}2022-04-05T23:45:09.354+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="                                                   Personal-Budget"
+                    sling:resourceType="BUDGET/components/title"/>
+                <container
+                    jcr:lastModified="{Date}2022-04-06T10:09:32.214+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BUDGET/components/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        jcr:created="{Date}2022-04-06T10:10:52.637+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Much like a business must develop a budget to ensure it’s spending money efficiently and not spending more than it can afford, individuals who want to monitor their finances and ensure they’re spending responsibly must develop their own, personal budget.&lt;/p>&#xd;&#xa;&lt;p>A personal budget, or household budget, simply tracks a household’s money in versus money out. Though a budget can be used to help an individual or family spend less and save more, it is, at its most basic, a planning and tracking tool.&lt;/p>&#xd;&#xa;&lt;p>Budgeting is all about being intentional with the ways you spend money, and planning ahead to help ensure you don’t run into any inconvenient – or, potentially, financially ruinous – surprises before you receive your next paycheck. This planning ahead also means you can save money for future goals and figure out exactly how long it will take you to reach them.&lt;/p>&#xd;&#xa;&lt;p>A budget also helps you be more confident in spending money on the things you want, but don’t necessarily need. Instead of feeling guilty or worrying that the cost of something will have you eating ramen for the rest of the month, you’ll know exactly how much you can spend without having to take away from other, more vital areas.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-04-06T10:12:04.463+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Personal Budget"
+                        sling:resourceType="BUDGET/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/myimages/personal-budget3.jpg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser>
+                    <text
+                        jcr:created="{Date}2022-04-06T10:11:02.527+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T10:18:13.905+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/text"
+                        text="&lt;h2 style=&quot;margin-left: 40.0px;&quot;>Why Budgeting Is Important&lt;/h2>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Even if you aren’t trying to reach a goal, like saving a certain amount of money or paying down debt, having a personal budget is still key to better financial health. Tracking the money you spend and planning ahead for future expenses can prevent you from overspending or spending money that is needed for upcoming expenses. Having it written down helps you visualize how much money you have to work with and what you’re spending that on.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Unless you’re a wealthy heir with a magically endless source of funds, you only have a certain amount of money to work with each month; that’s your income. And, on the other side of the equation, you have certain expenses that money goes toward each month.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>A budget helps ensure that these two sides of the equation match up. Even if you’re only thinking in the short term, planning out what things you need to spend your money on from week to week and month to month means you won’t accidentally spend too much on food and end up short on rent.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>That’s assuming you don’t have any plans to save for long-term goals, plan for retirement or achieve any of the life milestones that many people hope to reach, such as buying a house, earning an advanced degree or having a wedding. Assuming you’re someone with hopes, dreams and plans that require some amount of funding and long-term saving, a budget is all the more vital, because it helps you map out how you’re going to achieve those goals.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>One of the best things a budget can do for you is help you achieve your financial goals. On its own, a budget is great for helping you avoid money issues – which isn’t an insignificant thing – but using your budget to help you achieve goals really puts your money to good work.&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>That’s assuming you don’t have any plans to save for long-term goals, plan for retirement or achieve any of the life milestones that many people hope to reach, such as buying a house, earning an advanced degree or having a wedding. Assuming you’re someone with hopes, dreams and plans that require some amount of funding and long-term saving, a budget is all the more vital, because it helps you map out how you’re going to achieve those goals.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text>
+                    <title
+                        jcr:created="{Date}2022-04-06T10:21:21.844+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T10:21:53.909+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="How to manage PersonalBudget"
+                        sling:resourceType="BUDGET/components/title"/>
+                    <text_807363146
+                        jcr:created="{Date}2022-04-06T10:22:10.438+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-06T10:37:26.092+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/text"
+                        text="&lt;p>&lt;b>4. Determine Fixed and Variable Expenses&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Fixed expenses are those mandatory expenses that you pay the same amount for each time. Include items like mortgage or rent payments, car payments, set-fee internet service, trash pickup, and regular child care. If you pay a standard credit card payment, include that amount and any other essential spending that tends to stay the same from month to month.&lt;/p>&#xd;&#xa;&lt;p>If you plan to save a fixed amount or pay off a certain amount of debt each month, also include savings and debt repayment as fixed expenses.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&lt;b>5. Total Your Monthly Income and Expenses&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>If your income is higher than your expenses, you are off to a good start. This extra money means you can put funds towards areas of your budget, such as &lt;a href=&quot;https://www.thebalance.com/retirement-savings-benchmarks-4150169&quot;>retirement savings&lt;/a> or paying off debt.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>6. Make Adjustments to Expenses&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>If you're in a situation where expenses are higher than income, find areas in your variable expenses you can cut. Look for places you can reduce your spending—like eating out less—or eliminate a category—like canceling your gym membership.&lt;/p>&#xd;&#xa;&lt;h2>How To Use Your Budget&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;p>After you have set up your budget, you must monitor and continue to track your expenses in each category, ideally every day of the month. The same budgeting spreadsheet or app used to make your budget can also be used to record your expense and income totals.&lt;/p>&#xd;&#xa;&lt;p>Recording what you spend throughout the month will keep you from overspending and help you identify unnecessary expenses or problematic spending patterns. Take a few minutes each day to record your expenses, rather than putting it off until the end of the month.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>As you use your budget, keep an eye on how much you have spent. Once you have reached your spending limit in a category, you will either need to stop that type of spending for the month or move money from another category to cover additional expenses.&lt;/p>&#xd;&#xa;&lt;p>Your goal in using your budget should be to keep your expenses equal to or lower than your income for the month.&lt;/p>&#xd;&#xa;&lt;p>Automate as much as possible so the money you’ve allocated for a specific purpose gets there with minimal effort on your part. An accountability partner or online support group can help, so that you're held accountable for choices that blow the budget.&lt;/p>&#xd;&#xa;&lt;p>Your &lt;a href=&quot;https://www.nerdwallet.com/article/finance/budget-checklist-monthly-budget&quot;>income, expenses and priorities&lt;/a> will&amp;nbsp;change over time, so actively manage your budget by revisiting it regularly, perhaps once a quarter. If you're struggling to stick with your plan, try these &lt;a href=&quot;https://www.nerdwallet.com/article/finance/budgeting-tips&quot;>budgeting tips&lt;/a>.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text_807363146>
+                    <teaser_439626712
+                        jcr:created="{Date}2022-04-06T10:22:44.676+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p style=&quot;margin-left: 40.0px;&quot;>&lt;b>How To Make a Budget in 6 Simple Steps&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>To create a budget that works and allows you to live a comfortable and happy life, you need to get a firm handle on what you’re currently spending, what you can afford to spend, and what your priorities are.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&lt;b>1. Gather Your Financial Paperwork&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Before you begin, gather up all your financial statements, including:&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;li>Bank statements&lt;ul>&#xd;&#xa;&#xd;&#xa;&lt;li>Investment accounts&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Recent utility bills&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>W-2s and paystubs&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>1099s&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Credit card bills&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Receipts from the last three months&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Mortgage or auto loan statements&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;/ul>&#xd;&#xa;&#xd;&#xa;&lt;/li>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&lt;b>2. Calculate Your Income&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>How much income can you expect each month? If your income is in the form of a regular paycheck where taxes are automatically deducted, then using the net income (or take-home pay) amount is fine. If you are self-employed or have outside sources of income, such as child support or Social Security, include these as well. Record this total income as a monthly amount.&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&lt;b>3. Create a List of Monthly Expenses&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>Write down a list of all the expenses you expect to have during a month. This list could include:&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p style=&quot;margin-left: 40.0px;&quot;>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;li>Mortgage payments or rent&lt;ul>&#xd;&#xa;&#xd;&#xa;&lt;li>Car payments&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Insurance&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Groceries&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Utilities&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Entertainment&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Personal care&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Eating out&lt;/li>&#xd;&#xa;&#xd;&#xa;&lt;li>Child care&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;/li>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-04-06T10:24:35.756+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/myimages/persnal-budget1.jpg"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser_439626712>
+                </container>
+            </container>
+        </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>
