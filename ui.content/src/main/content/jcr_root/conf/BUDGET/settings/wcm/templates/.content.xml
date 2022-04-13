@@ -7,4 +7,6 @@
     <page-content/>
     <xf-web-variation/>
     <rep:policy/>
+    <signup-template/>
+    <test/>
 </jcr:root>

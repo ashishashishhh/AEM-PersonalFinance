@@ -259,5 +259,6 @@
     <mutualfund/>
     <successful-budget/>
     <expenses/>
-    <new/>
+    <signup-page/>
+    <loginpage/>
 </jcr:root>

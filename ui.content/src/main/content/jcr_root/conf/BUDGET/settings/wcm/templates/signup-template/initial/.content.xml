@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/BUDGET/settings/wcm/templates/signup-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="BUDGET/components/page">
+        <root
+            jcr:lastModified="{Date}2022-04-12T11:49:07.402+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="BUDGET/components/container">
+            <container
+                jcr:lastModified="{Date}2022-04-12T11:34:19.269+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BUDGET/components/container"
+                layout="responsiveGrid">
+                <image
+                    jcr:created="{Date}2022-04-12T11:34:31.731+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-12T11:49:32.988+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BUDGET/components/image"/>
+                <container
+                    jcr:created="{Date}2022-04-12T11:49:19.115+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-12T11:49:40.041+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BUDGET/components/container"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

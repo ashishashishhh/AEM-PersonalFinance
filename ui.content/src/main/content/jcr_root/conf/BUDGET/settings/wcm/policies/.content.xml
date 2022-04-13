@@ -207,12 +207,12 @@
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2022-04-05T17:42:09.050+05:30"
+                    jcr:lastModified="{Date}2022-04-12T11:15:04.020+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:BUDGET - Content,/apps/BUDGET/components/form/container,group:BUDGET - Structure,/apps/editabledemo/components/structure/footer,/apps/editabledemo/components/structure/header]">
+                    components="[group:BUDGET - Content,/apps/BUDGET/components/form/container,group:BUDGET - Structure,group:BUDGET Component,/apps/editabledemo/components/structure/footer,/apps/editabledemo/components/structure/header]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -239,10 +239,12 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2022-04-12T11:32:50.734+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:BUDGET - Content,/apps/BUDGET/components/form/container]">
+                    components="[group:General,group:BUDGET - Content,/apps/BUDGET/components/form/container,group:BUDGET Component]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -270,12 +272,12 @@
                 <policy_649128221558427
                     cq:styleDefaultElement="main"
                     jcr:description="Sets a &lt;main> element on the page content area."
-                    jcr:lastModified="{Date}2022-04-08T15:57:23.807+05:30"
+                    jcr:lastModified="{Date}2022-04-12T12:20:32.936+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Main"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/foundation/components/adaptiveimage,/libs/fd/af/components/aemform,/apps/acs-commons/components/content/audio,/libs/cq/experience-fragments/editor/components/buildingblock,/libs/foundation/components/carousel,/libs/foundation/components/chart,/libs/dam/cfm/components/contentfragment,/apps/acs-commons/components/content/definition-list,/libs/wcm/designimporter/components/importerEx,/libs/foundation/components/download,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/foundation/components/external,/apps/acs-commons/components/content/generic-text-image,/libs/foundation/components/image,/libs/wcm/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/list,/libs/wcm/foundation/components/list,/libs/foundation/components/search,/libs/foundation/components/table,/libs/foundation/components/text,/libs/foundation/components/textimage,/libs/wcm/foundation/components/textimage,/libs/wcm/foundation/components/text,/libs/foundation/components/title,/libs/wcm/designimporter/components/title,/libs/wcm/foundation/components/title,/libs/foundation/components/video,/apps/BUDGET/components/helloworld]">
+                    components="[/libs/foundation/components/adaptiveimage,/libs/fd/af/components/aemform,/apps/acs-commons/components/content/audio,/libs/cq/experience-fragments/editor/components/buildingblock,/libs/foundation/components/carousel,/libs/foundation/components/chart,/libs/dam/cfm/components/contentfragment,/apps/acs-commons/components/content/definition-list,/libs/wcm/designimporter/components/importerEx,/libs/foundation/components/download,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/foundation/components/external,/apps/acs-commons/components/content/generic-text-image,/libs/foundation/components/image,/libs/wcm/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/list,/libs/wcm/foundation/components/list,/libs/foundation/components/search,/libs/foundation/components/table,/libs/foundation/components/text,/libs/foundation/components/textimage,/libs/wcm/foundation/components/textimage,/libs/wcm/foundation/components/text,/libs/foundation/components/title,/libs/wcm/designimporter/components/title,/libs/wcm/foundation/components/title,/libs/foundation/components/video,/apps/BUDGET/components/helloworld,group:BUDGET Component]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_649128221558427>
                 <policy_1575040440977
