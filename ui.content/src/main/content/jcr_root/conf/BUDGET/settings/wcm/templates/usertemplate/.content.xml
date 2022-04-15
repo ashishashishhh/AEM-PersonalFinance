@@ -2,11 +2,13 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2022-04-14T13:22:18.981+05:30"
+        cq:lastModified="{Date}2022-04-14T16:37:36.971+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2022-04-14T16:35:29.412+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:templateType="/conf/BUDGET/settings/wcm/template-types/page"
-        jcr:description="My Site Page Template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Content Page"
+        jcr:title="UserTemplate"
         status="enabled"/>
 </jcr:root>
