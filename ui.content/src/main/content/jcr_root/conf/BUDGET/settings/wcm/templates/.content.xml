@@ -9,4 +9,7 @@
     <rep:policy/>
     <signup-template/>
     <test/>
+    <usertemplate/>
+    <usertemplates/>
+    <userbudget/>
 </jcr:root>
