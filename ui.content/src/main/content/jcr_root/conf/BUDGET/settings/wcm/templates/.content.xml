@@ -10,6 +10,9 @@
     <signup-template/>
     <test/>
     <usertemplate/>
+<<<<<<< HEAD
+=======
     <usertemplates/>
     <userbudget/>
+>>>>>>> cb61bf5dedbe723ff2caf4f1a0aacdf114ea49e3
 </jcr:root>

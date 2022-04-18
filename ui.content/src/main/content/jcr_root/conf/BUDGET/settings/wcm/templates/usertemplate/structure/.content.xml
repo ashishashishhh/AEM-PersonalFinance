@@ -3,26 +3,57 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
+<<<<<<< HEAD
+        cq:lastModified="{Date}2022-04-14T16:37:16.506+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2022-04-14T16:35:08.396+05:30"
+=======
         cq:lastModified="{Date}2022-04-15T10:54:05.025+05:30"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2022-04-15T10:52:55.308+05:30"
+>>>>>>> cb61bf5dedbe723ff2caf4f1a0aacdf114ea49e3
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:template="/conf/BUDGET/settings/wcm/templates/usertemplate"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
+<<<<<<< HEAD
+        jcr:uuid="0a8ead00-b76e-44d1-915d-722d452f7a98"
+=======
         jcr:uuid="cc0f80e6-b52e-42c3-80fb-363279e78737"
+>>>>>>> cb61bf5dedbe723ff2caf4f1a0aacdf114ea49e3
         sling:resourceType="BUDGET/components/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="BUDGET/components/container">
             <container
+<<<<<<< HEAD
+                jcr:lastModified="{Date}2022-04-14T16:31:10.328+05:30"
+=======
                 jcr:lastModified="{Date}2022-04-14T16:04:59.807+05:30"
+>>>>>>> cb61bf5dedbe723ff2caf4f1a0aacdf114ea49e3
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="BUDGET/components/container"
                 layout="responsiveGrid">
+<<<<<<< HEAD
+                <header
+                    jcr:created="{Date}2022-04-14T16:31:19.523+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-14T16:31:19.523+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="editabledemo/components/structure/header"/>
+                <container
+                    jcr:created="{Date}2022-04-14T16:31:28.204+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-14T16:31:35.360+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BUDGET/components/container"
+                    layout="responsiveGrid">
+=======
                 <sidebars
                     jcr:created="{Date}2022-04-14T16:06:55.350+05:30"
                     jcr:createdBy="admin"
@@ -30,10 +61,45 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="BUDGET/components/sidebars">
+>>>>>>> cb61bf5dedbe723ff2caf4f1a0aacdf114ea49e3
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
+<<<<<<< HEAD
+                            width="4"/>
+                    </cq:responsive>
+                    <sidebars
+                        jcr:created="{Date}2022-04-14T16:32:10.125+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T16:32:10.125+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="BUDGET/components/sidebars"/>
+                </container>
+                <container_38406508
+                    jcr:created="{Date}2022-04-14T16:31:47.286+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-14T16:36:42.686+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BUDGET/components/container"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="7"/>
+                    </cq:responsive>
+                </container_38406508>
+                <footer
+                    jcr:created="{Date}2022-04-14T16:32:04.364+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-14T16:32:04.364+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="editabledemo/components/structure/footer"/>
+=======
                             width="3"/>
                     </cq:responsive>
                 </sidebars>
@@ -66,6 +132,7 @@
                             width="8"/>
                     </cq:responsive>
                 </container>
+>>>>>>> cb61bf5dedbe723ff2caf4f1a0aacdf114ea49e3
             </container>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
