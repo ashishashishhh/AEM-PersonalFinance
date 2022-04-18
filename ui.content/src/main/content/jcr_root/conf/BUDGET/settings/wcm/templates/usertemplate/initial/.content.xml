@@ -7,6 +7,7 @@
         sling:resourceType="BUDGET/components/page">
         <root
             jcr:primaryType="nt:unstructured"
+<<<<<<< HEAD
             sling:resourceType="BUDGET/components/container">
             <container
                 jcr:lastModified="{Date}2022-04-14T16:31:10.328+05:30"
@@ -24,5 +25,8 @@
                     layout="responsiveGrid"/>
             </container>
         </root>
+=======
+            sling:resourceType="BUDGET/components/container"/>
+>>>>>>> cb61bf5dedbe723ff2caf4f1a0aacdf114ea49e3
     </jcr:content>
 </jcr:root>
